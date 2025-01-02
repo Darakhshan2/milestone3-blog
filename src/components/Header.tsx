@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { LuHouse } from "react-icons/lu";
 import { PiCoffeeBold } from "react-icons/pi";
 import { ImBlog } from "react-icons/im";
-import { RiContactsLine } from "react-icons/ri";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Link from 'next/link';
 

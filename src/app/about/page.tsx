@@ -32,9 +32,9 @@ export default function About() {
         <div className="text ml-[40px] lg:flex-row text-5xl h-auto md:mt-12 md:text-xl font-bold tracking-[2px] pl-5 pr-5 text-gray-400">
   About Our Website
   <div className="text md:w-auto font-bold  text-black mt-4 md:text-sm md:mt-1">
-    "At TechnologyIs, we explore the vast and ever-evolving <br /> world
+    At TechnologyIs, we explore the vast and ever-evolving <br /> world
     of technologies that are shaping the future. <br />
-    From artificial intelligence and machine learning to the Internet{" "}
+    From artificial intelligence and machine learning to the Internet
     <br /> of Things (IoT), blockchain, and cloud computing, we cover a
     wide <br /> range of topics that are transforming industries and
     everyday life.
@@ -48,7 +48,7 @@ export default function About() {
   our lives and industries. <br /> Founded by a team of AI enthusiasts,
   researchers, and industry experts, we strive to bring you the most
   accurate, up-to-date, and thought-provoking content about AI and its
-  related fields. <br /> Whether you're a seasoned AI professional, a curious
+  related fields. <br /> Whether you are a seasoned AI professional, a curious
   student, or simply someone interested in the future of technology, our
   blog offers valuable insights, practical guides, and engaging
   discussions to expand your understanding of AI.

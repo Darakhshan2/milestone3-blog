@@ -5,7 +5,6 @@ import Typed from "typed.js";
 import gsap from "gsap"
 import { main} from "../../data/main";
 import Image from "next/image";
-import myBlogs from "../../data/allblogs";
 import Link from "next/link";
 
 
