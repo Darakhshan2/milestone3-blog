@@ -5,7 +5,7 @@ import Image from "next/image";
 import myBlogs from "../../../../data/allblogs";
 const SingleBlogPage = ({ params }: { params: { id: string } }) => {
  
-  const blog = myBlogs.find((b) => b.id === params.id); // Direct params.id access karein
+  const blog = myBlogs.find((b) => b.id === params.id); 
 
   if (!blog) {
     return <p>Product not found!</p>;
@@ -28,7 +28,7 @@ const SingleBlogPage = ({ params }: { params: { id: string } }) => {
         </div>
   
         <p className="font-semibold text-3xl text-[#333333]">
-          Published:{" "}
+          Published:
           <span
             className="font-normal text-[#333333]
         "
@@ -47,7 +47,7 @@ const SingleBlogPage = ({ params }: { params: { id: string } }) => {
           />
           <div className="flex flex-col gap-1 pt-4 ">
             <h3 className="text-xl font-semibold text-[#333333]">
-              Author:{" "}
+              Author:
               <span className="text-xl font-medium">{blog.author}</span>
             </h3>
             <p className="italic text-xs xs:text-sm sm:text-base text-[#333333]">
