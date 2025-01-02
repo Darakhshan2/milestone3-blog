@@ -3,13 +3,7 @@
 
 import Image from "next/image";
 import myBlogs from "../../../../data/allblogs";
-type SingleBlogPageProps = {
-  params: {
-    id: string;
-  };
-};
-
-const SingleBlogPage = ({ params }:SingleBlogPageProps ) => {
+const SingleBlogPage = ({ params }: { params: { id: string } }) => {
  
   const blog = myBlogs.find((b) => b.id === params.id); 
 
