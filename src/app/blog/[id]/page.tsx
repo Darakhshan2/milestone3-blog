@@ -1,6 +1,4 @@
-
 "use client";
-
 import Image from "next/image";
 import myBlogs from "../../../../data/allblogs";
 const SingleBlogPage = ({ params }: { params: { id: string } }) => {
