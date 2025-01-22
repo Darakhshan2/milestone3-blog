@@ -10,7 +10,7 @@ export default function About() {
     gsap.from(".image", { duration: 1, opacity: 0, x: -100 });
     gsap.from(".text", { duration: 1, opacity: 0, y: 50, delay: 0.7 });
     gsap.from(".para", { duration: 1, opacity: 0, y: 50, delay: 1.2 });
-    gsap.from(".mission", { duration: 1, opacity: 0, y: 50, delay: 2 });
+    gsap.from(".mission", { duration: 1, y: 50, delay: 2 });
     gsap.from(".team", { duration: 1, opacity: 0, y: 50, delay: 2 });
 
 
@@ -41,7 +41,7 @@ export default function About() {
   </div>
 </div>
 
-   <div className="para p-24 md:p-6 md:w-auto tracking-[2px]  text-lg mt-5">
+   <div className="para p-24 md:p-6 md:w-auto tracking-[2px] text-black text-lg mt-5">
   Welcome to my Blog, your go-to source for cutting-edge insights
   into the world of Artificial Intelligence. Our mission is to demystify
   AI, explore its potential, and discuss its impact on various aspects of
@@ -53,7 +53,7 @@ export default function About() {
   blog offers valuable insights, practical guides, and engaging
   discussions to expand your understanding of AI.
      </div>
-      <div className="mission p-24 bg-gray-200 text-center">
+      <div className="mission p-24 text-center">
         <h2 className="text-4xl font-bold mb-4">Our Mission</h2>
         <p className="text-lg">
           To provide insightful, accurate, and engaging content about the latest advancements in AI and technology, and to foster a community of learners and professionals who are passionate about the future of technology.

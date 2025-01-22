@@ -1,12 +1,15 @@
 "use client";
 import Image from "next/image";
+import { useParams } from "next/navigation";
+
 import myBlogs from "../../../../data/allblogs";
-const SingleBlogPage = ({ params }: { params: { id: string } }) => {
- 
+const SingleBlogPage = () => {
+  const params = useParams();
+
   const blog = myBlogs.find((b) => b.id === params.id); 
 
   if (!blog) {
-    return <p>Product not found!</p>;
+    return <p>Blog not found!</p>;
   }
 
     return (
